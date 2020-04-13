@@ -22,7 +22,7 @@ export default function RockPaperScissors({ player }) {
   // 2- 👉👉👉 We DO NOT need a slice for rounds tied, as we can calculate that info using other slices
 
 
-  // 2- 👉👉👉 REPLACE IN THE JSX THE HARD CODED PIECES OF DATA WITH PIECES OF STATE
+  // 2- 👉👉👉 REPLACE DOWN IN THE JSX THE HARD CODED PIECES OF DATA WITH PIECES OF STATE
 
 
   // 3- 👉👉👉 ATTACH IN THE JSX A CLICK HANDLER THAT UPDATES STATE ON USER INTERACTION
@@ -35,21 +35,21 @@ export default function RockPaperScissors({ player }) {
     // ⛔⛔⛔ DO NOT MUTATE STATE, EVER! PROVIDE A NEW ONE ⛔⛔⛔
     // ⛔⛔⛔ DO NOT MUTATE STATE, EVER! PROVIDE A NEW ONE ⛔⛔⛔
 
-    // A- update the round count
+    // 4A- update the round count
 
-    // B- pull out which weapon the user selected from the event.target
+    // 4B- pull out which weapon the user selected from the event.target
 
-    // C- generate a random number (0, 1, 2) to select a weapon for the computer
+    // 4C- generate a random number (0, 1, 2) to select a weapon for the computer
 
-    if (/* user LOSES */ null) {
+    if (/* 4D- user LOSES */ null) {
       // - update the losses
       // - update the message
 
-    } else if (/* user WINS */ null) {
+    } else if (/* 4E- user WINS */ null) {
       // - update the wins
       // - update the message
 
-    } else /* it's a TIE */ {
+    } else /* 4F- it's a TIE */ {
       // - update the message
     }
   }
