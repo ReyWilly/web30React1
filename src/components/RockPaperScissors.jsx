@@ -35,22 +35,22 @@ export default function RockPaperScissors({ player }) {
     // ⛔⛔⛔ DO NOT MUTATE STATE, EVER! PROVIDE A NEW ONE ⛔⛔⛔
     // ⛔⛔⛔ DO NOT MUTATE STATE, EVER! PROVIDE A NEW ONE ⛔⛔⛔
 
-    // 4A- update the round count
+    // 4A- Update the round count
 
-    // 4B- pull out which weapon the user selected from the event.target
+    // 4B- Pull out which weapon the user selected from the event.target
 
-    // 4C- generate a random number (0, 1, 2) to select a weapon for the computer
+    // 4C- Generate a random number (0, 1, 2) to select a weapon for the computer
 
     if (/* 4D- user LOSES */ null) {
-      // - update the losses
-      // - update the message
+      // - Update the losses
+      // - Update the message
 
     } else if (/* 4E- user WINS */ null) {
-      // - update the wins
-      // - update the message
+      // - Update the wins
+      // - Update the message
 
     } else /* 4F- it's a TIE */ {
-      // - update the message
+      // - Update the message
     }
   }
 
