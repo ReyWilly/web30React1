@@ -6,7 +6,7 @@ import { string } from 'prop-types'
 // These constants could live in another module
 const weapons = ['🗿', '📜', '✂️']
 
-// It's less error-prone to work with variables than hard-coded constants
+// It's less error-prone to work with variables than hard-coded strings
 const [rock, paper, scissors] = weapons
 
 
