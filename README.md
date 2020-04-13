@@ -10,6 +10,6 @@ being used by another application.
 
 - Clone the repo.
 - Navigate into the project folder.
-- Run `npm i` to download the project's dependencies listede in the `package.json`.
+- Run `npm i` to download the project's dependencies listed in the `package.json`.
 - Run `npm start` to compile the project and spin up a dev server on `localhost`.
 - Run `npm run build` to compile the project with minification
